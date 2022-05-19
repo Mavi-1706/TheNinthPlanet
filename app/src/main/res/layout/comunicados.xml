@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EFEDED"
-    android:backgroundTint="#FDF8F2">
+    android:backgroundTint="#EAD9CE">
 
     <LinearLayout
         android:id="Layout"
@@ -23,49 +23,50 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="74dp"
+            android:layout_width="96dp"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
             android:contentDescription="@android:string/no"
             app:srcCompat="@drawable/logo_2870" />
 
         <ImageButton
             android:id="@+id/imageButton8"
-            android:layout_width="82dp"
-            android:layout_height="74dp"
+            android:layout_width="88dp"
+            android:layout_height="79dp"
             android:backgroundTint="#FFFFFF"
             android:contentDescription="@android:string/no"
             android:translationX="330dp"
-            android:translationY="-63dp"
+            android:translationY="-69dp"
             app:srcCompat="@drawable/menu_FILL0_wght200_GRAD0_opsz24" />
 
         <ImageButton
             android:id="@+id/imageButton9"
             android:layout_width="82dp"
-            android:layout_height="77dp"
+            android:layout_height="89dp"
             android:backgroundTint="#FFFFFF"
             android:contentDescription="@android:string/no"
             android:translationX="90dp"
-            android:translationY="-140dp"
+            android:translationY="-147dp"
             app:srcCompat="@drawable/home_FILL0_wght200_GRAD0_opsz24" />
 
         <ImageButton
             android:id="@+id/imageButton10"
-            android:layout_width="97dp"
-            android:layout_height="74dp"
+            android:layout_width="96dp"
+            android:layout_height="90dp"
             android:backgroundTint="#FFFFFF"
             android:contentDescription="@android:string/no"
             android:translationX="160dp"
-            android:translationY="-214dp"
+            android:translationY="-237dp"
             app:srcCompat="@drawable/group_FILL0_wght200_GRAD0_opsz24" />
 
         <ImageButton
             android:id="@+id/imageButton11"
-            android:layout_width="111dp"
-            android:layout_height="117dp"
+            android:layout_width="108dp"
+            android:layout_height="100dp"
             android:backgroundTint="#FFFFFF"
             android:contentDescription="@android:string/no"
             android:translationX="230dp"
-            android:translationY="-310dp"
+            android:translationY="-335dp"
             app:srcCompat="@drawable/campaign_FILL0_wght200_GRAD0_opsz24" />
 
 
@@ -73,8 +74,8 @@
 
     <TableRow
         android:id="@+id/tableRow"
-        android:layout_width="403dp"
-        android:layout_height="94dp"
+        android:layout_width="412dp"
+        android:layout_height="67dp"
         android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:translationY="10dp"
@@ -91,7 +92,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFEFE"
             android:contentDescription="@android:string/no"
-            android:translationY="50dp"
+            android:translationY="30dp"
             app:srcCompat="@drawable/mms_FILL0_wght200_GRAD0_opsz24" />
 
         <ImageButton
@@ -118,7 +119,7 @@
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="570dp"
-        android:background="#FFF7EF"
+        android:background="#EAD9CE"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
