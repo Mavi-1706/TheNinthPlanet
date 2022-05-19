@@ -1,6 +1,287 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#983051"
+    android:contentDescription="@android:string/untitled"
+    tools:autofillHints="@android:string/selectTextMode"
+    tools:context=".ui.main.PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="262dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/abeezee"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:translationY="70sp"
+
+        app:layout_anchorGravity="end|center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012"
+        tools:text="The Ninth Planet" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="164dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/abeezee"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:translationY="70sp"
+
+        app:layout_anchorGravity="end|center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        tools:text="Profesor" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_inner"
+        android:layout_width="246dp"
+        android:layout_height="406dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="#983057"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_outer"
+            android:layout_width="247dp"
+            android:layout_height="397dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="3dp">
+
+            <EditText
+                android:id="@+id/person_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/esquinas_redondeadas"
+                android:ems="10"
+                android:gravity="start|end"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:minHeight="33dp"
+                android:translationY="40sp"
+                tools:ignore="LabelFor,TouchTargetSizeCheck"
+                tools:text="Nombre" />
+
+            <EditText
+                android:id="@+id/person_name_matern"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/esquinas_redondeadas"
+                android:ems="10"
+                android:gravity="start|end"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:minHeight="33dp"
+                android:translationY="90dp"
+                tools:ignore="LabelFor,TouchTargetSizeCheck"
+                tools:text="Apellido Materno" />
+
+            <EditText
+                android:id="@+id/person_name_patern"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/esquinas_redondeadas"
+                android:ems="10"
+                android:gravity="start|end"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:minHeight="33dp"
+                android:translationY="140dp"
+                tools:ignore="LabelFor,TouchTargetSizeCheck"
+                tools:text="Apellido Paterno" />
+
+            <EditText
+                android:id="@+id/editTextTextTextPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/esquinas_redondeadas"
+                android:ems="10"
+                android:gravity="start|end"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:minHeight="33dp"
+                android:translationY="190dp"
+                tools:ignore="LabelFor,TouchTargetSizeCheck"
+                tools:text="Alias" />
+
+            <EditText
+                android:id="@+id/editTextPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/esquinas_redondeadas"
+                android:ems="10"
+                android:gravity="start|end"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:minHeight="33dp"
+                android:translationY="240dp"
+                tools:ignore="LabelFor,TouchTargetSizeCheck"
+                tools:text="sexo" />
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/esquinas_redondeadas"
+                android:ems="10"
+                android:gravity="start|end"
+                android:importantForAutofill="no"
+                android:inputType="date"
+                android:minHeight="33dp"
+                android:translationY="290dp"
+                tools:ignore="LabelFor,TouchTargetSizeCheck"
+                tools:text="Fecha de nacimiento" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/esquinas_redondeadas"
+                android:ems="10"
+                android:gravity="start|end"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:minHeight="33dp"
+                android:translationY="340dp"
+                tools:ignore="LabelFor,TouchTargetSizeCheck"
+                tools:text="contraseña" />
+
+
+        </android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="310dp"
+        android:layout_height="269dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="568dp"
+        android:contentDescription="@android:string/untitled"
+        android:src="@drawable/bolablanca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="239dp"
+        android:layout_height="214dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="620dp"
+        android:contentDescription="@android:string/untitled"
+        android:src="@drawable/bolablanca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="@android:string/untitled"
+        android:src="@drawable/austronautita"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="85dp"
+        android:layout_height="87dp"
+        android:contentDescription="@android:string/untitled"
+        android:src="@drawable/logo_2870"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="203dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#1176CE"
+        android:contentDescription="@string/hide_bottom_view_on_scroll_behavior"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView19"
+        app:layout_constraintVertical_bias="0.905"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:text="Registrarse" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1176CE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81"
+        tools:text="Ya leí el aviso de privacidad y estoy deacuerdo" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1176CE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955"
+        tools:text="Ya tengo una cuenta" />
+
 
 </android.support.constraint.ConstraintLayout>
