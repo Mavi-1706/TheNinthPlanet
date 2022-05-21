@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EFEDED"
-    android:backgroundTint="#EAD9CE">
+    android:backgroundTint="#000000">
 
     <LinearLayout
         android:id="Layout"
@@ -40,34 +40,31 @@
             app:srcCompat="@drawable/menu_FILL0_wght200_GRAD0_opsz24" />
 
         <ImageButton
-            android:id="@+id/imageButton9"
-            android:layout_width="82dp"
-            android:layout_height="89dp"
+            android:id="@+id/imageButton5"
+            android:layout_width="94dp"
+            android:layout_height="76dp"
             android:backgroundTint="#FFFFFF"
-            android:contentDescription="@android:string/no"
             android:translationX="90dp"
             android:translationY="-147dp"
-            app:srcCompat="@drawable/home_FILL0_wght200_GRAD0_opsz24" />
+            app:srcCompat="@drawable/public_FILL0_wght300_GRAD0_opsz24" />
 
         <ImageButton
-            android:id="@+id/imageButton10"
-            android:layout_width="96dp"
-            android:layout_height="90dp"
+            android:id="@+id/imageButton6"
+            android:layout_width="74dp"
+            android:layout_height="78dp"
             android:backgroundTint="#FFFFFF"
-            android:contentDescription="@android:string/no"
-            android:translationX="160dp"
-            android:translationY="-237dp"
-            app:srcCompat="@drawable/group_FILL0_wght200_GRAD0_opsz24" />
+            android:translationX="176dp"
+            android:translationY="-223dp"
+            app:srcCompat="@drawable/smart_toy_FILL0_wght300_GRAD0_opsz24" />
 
         <ImageButton
-            android:id="@+id/imageButton11"
-            android:layout_width="108dp"
-            android:layout_height="100dp"
+            android:id="@+id/imageButton7"
+            android:layout_width="100dp"
+            android:layout_height="77dp"
             android:backgroundTint="#FFFFFF"
-            android:contentDescription="@android:string/no"
-            android:translationX="230dp"
-            android:translationY="-335dp"
-            app:srcCompat="@drawable/campaign_FILL0_wght200_GRAD0_opsz24" />
+            android:translationX="242dp"
+            android:translationY="-301dp"
+            app:srcCompat="@drawable/satellite_alt_FILL0_wght300_GRAD0_opsz24" />
 
 
     </LinearLayout>
@@ -113,13 +110,13 @@
             android:textSize="12sp"
             android:translationX="-25dp"
             android:translationY="20dp"
-            tools:text="Escribe algo" />
+            tools:text="¿Qué esta sucediendo?" />
     </TableRow>
 
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="570dp"
-        android:background="#EAD9CE"
+        android:background="#FBF8F8"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -132,90 +129,25 @@
             android:layout_width="352dp"
             android:layout_height="225dp"
             android:background="#FAF9F9"
-            android:backgroundTint="#FDFDFD"
+            android:backgroundTint="#FFFDFD"
             android:orientation="vertical"
             android:translationX="30dp"
             android:translationY="10dp">
 
-            <View
-                android:id="@+id/divider"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="?android:attr/listDivider"
-                android:translationY="185dp" />
+                android:layout_height="42dp"
+                android:background="#000000"
+                android:backgroundTint="#090909"
+                android:orientation="vertical"
+                android:translationY="-0dp" />
 
-            <ImageButton
-                android:id="@+id/imagebuttonfavorite"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#FFFFFF"
-                android:contentDescription="@android:string/no"
-                android:translationX="260dp"
-                android:translationY="180dp"
-                app:srcCompat="@drawable/favorite_FILL0_wght100_GRAD0_opsz24" />
-
-            <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#FFFEFE"
-                android:contentDescription="@android:string/no"
-                android:translationX="300dp"
-                android:translationY="137dp"
-                app:srcCompat="@drawable/comment_FILL0_wght100_GRAD0_opsz24" />
-
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="48dp"
-                android:layout_height="47dp"
-                android:contentDescription="@android:string/no"
-                android:translationY="-90dp"
-                app:srcCompat="@drawable/austronautita" />
-
-            <ImageButton
-                android:id="@+id/imageButton2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#FFFFFF"
-                android:contentDescription="@android:string/selectAll"
-                android:translationX="300dp"
-                android:translationY="-130dp"
-                app:srcCompat="@drawable/more_vert_FILL0_wght200_GRAD0_opsz24" />
-
-            <ImageView
-                android:id="@+id/imageView22"
-                android:layout_width="55dp"
-                android:layout_height="wrap_content"
-                android:translationY="-180dp"
-                app:srcCompat="@drawable/ESCUDOCECYT" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="242dp"
-                android:layout_height="34dp"
-                android:translationX="60dp"
-                android:translationY="-220dp"
-                tools:text="CECyT 9 &quot;Juan de Dios Batiz&quot;" />
-
-            <ImageView
-                android:id="@+id/imageView24"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/descarga" />
-
-            <View
-                android:id="@+id/divider3"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="?android:attr/listDivider"
-                android:translationY="-150dp" />
-
-            <ImageView
-                android:id="@+id/imageView25"
-                android:layout_width="match_parent"
-                android:layout_height="115dp"
-                android:translationY="-200dp"
-                app:srcCompat="@drawable/descarga" />
+                android:layout_height="44dp"
+                android:background="#000000"
+                android:orientation="vertical"
+                android:translationY="140dp"></LinearLayout>
 
         </LinearLayout>
 
